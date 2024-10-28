@@ -12,7 +12,7 @@ const Hero = () => {
         transition={{ duration: 1.5 }}
       >
         <Image
-          src="/images/rooms/deluxe.jpg"
+          src="/images/miha1/deluxe.jpg"
           alt="Miha Villa Hero"
           layout="fill"
           objectFit="cover"
