@@ -37,7 +37,7 @@ const Hero = () => {
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.4 }}
         >
-          Experience luxury living in our exclusive villa resort nestled in nature's embrace
+          Experience luxury living in our exclusive villa resort nestled in nature&apos;s embrace
         </motion.p>
         <motion.div 
           className="space-x-4"

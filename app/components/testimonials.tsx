@@ -1,4 +1,3 @@
-
 import Image from 'next/image';
 
 const Testimonials = () => {
@@ -51,11 +50,11 @@ const Testimonials = () => {
                 </div>
               </div>
               <blockquote className="text-gray-700 italic text-center relative">
-                <span className="absolute -left-2 -top-2 text-4xl text-primary/20">"</span>
+                <span className="absolute -left-2 -top-2 text-4xl text-primary/20">&quot;</span>
                 <p className="leading-relaxed hover:text-primary transition-colors duration-300">
                   {testimonial.quote}
                 </p>
-                <span className="absolute -right-2 bottom-0 text-4xl text-primary/20">"</span>
+                <span className="absolute -right-2 bottom-0 text-4xl text-primary/20">&quot;</span>
               </blockquote>
             </div>
           ))}

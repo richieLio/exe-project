@@ -1,10 +1,8 @@
 "use client";
-import Image from "next/image";
 import Navbar from "@/app/components/navbar";
 import Hero from "@/app/components/hero";
 import About from "@/app/components/about";
 import Combo from "@/app/components/combo";
-import RoomTypes from "@/app/components/room-types";
 import Facilities from  "@/app/components/facilities";
 import Contact from "@/app/components/contact";
 import Testimonials from "@/app/components/testimonials";
