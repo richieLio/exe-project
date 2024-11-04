@@ -54,7 +54,7 @@ const Testimonials = () => {
                 <p className="leading-relaxed hover:text-primary transition-colors duration-300">
                   {testimonial.quote}
                 </p>
-                <span className="absolute -right-2 bottom-0 text-4xl text-primary/20">"</span>
+                <span className="absolute -right-2 bottom-0 text-4xl text-primary/20">&quot;</span>
               </blockquote>
             </div>
           ))}
