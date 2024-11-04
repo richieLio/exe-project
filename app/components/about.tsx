@@ -4,7 +4,7 @@ import Image from 'next/image'
 export default function About() {
   return (
     <section className="py-16 px-4">
-      <motion.h2 
+      <motion.h2
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
@@ -13,26 +13,26 @@ export default function About() {
         Về Miha Villa
       </motion.h2>
       <div className="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto">
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, x: -50 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
           className="space-y-6"
         >
-          <motion.p 
+          <motion.p
             className="text-lg leading-relaxed text-gray-700 hover:text-gray-900 transition-colors duration-300"
             whileHover={{ scale: 1.02 }}
           >
-            Miha Villa là điểm đến nghỉ dưỡng sang trọng, nơi hội tụ giữa thiên nhiên và đẳng cấp.
+            Miha Villa là điểm đến lý tưởng cho những ai muốn trải nghiệm sự bình yên và gần gũi với thiên nhiên. Với thiết kế giản dị nhưng ấm cúng, nơi đây mang đến cảm giác thân thuộc như ở nhà.
           </motion.p>
-          <motion.p 
+          <motion.p
             className="text-lg leading-relaxed text-gray-700 hover:text-gray-900 transition-colors duration-300"
             whileHover={{ scale: 1.02 }}
           >
-            Với kiến trúc độc đáo và dịch vụ 5 sao, chúng tôi mang đến cho quý khách trải nghiệm nghỉ dưỡng hoàn hảo.
+            Các tiện ích như hồ bơi và khu vực BBQ tạo điều kiện cho những buổi tiệc nướng hay thư giãn. Nhân viên phục vụ nhiệt tình và chu đáo giúp khách lưu trú cảm thấy thoải mái và hài lòng.
           </motion.p>
         </motion.div>
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, x: 50 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
