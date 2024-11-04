@@ -2,6 +2,14 @@ import Image from 'next/image';
 import { motion } from 'framer-motion';
 
 const Hero = () => {
+  const scrollToNextSection = () => {
+    const heroHeight = window.innerHeight;
+    window.scrollTo({
+      top: heroHeight,
+      behavior: 'smooth'
+    });
+  };
+
   return (
     <div className="relative h-screen overflow-hidden">
       {/* Hero Background */}
@@ -24,20 +32,20 @@ const Hero = () => {
       {/* Hero Content */}
       <div className="relative h-full flex flex-col items-center justify-center text-white px-4 md:px-8">
         <motion.h1 
-          className="text-4xl md:text-6xl font-bold text-center mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-300"
+          className="text-5xl md:text-7xl font-bold text-center mb-6 text-white drop-shadow-[0_0_15px_rgba(255,255,255,0.6)] font-playfair"
           initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
+          transition={{ duration: 0.8, delay: 0.3 }}
         >
-          Welcome to Miha Villa
+          MIHA VILLA
         </motion.h1>
         <motion.p 
-          className="text-xl md:text-2xl text-center mb-8 max-w-3xl backdrop-blur-sm bg-white/10 p-4 rounded-lg"
+          className="text-xl md:text-2xl text-center mb-8 max-w-3xl backdrop-blur-sm bg-white/10 p-4 rounded-lg font-light text-white drop-shadow-[0_0_5px_rgba(255,255,255,0.3)] font-cormorant"
           initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.4 }}
         >
-          Experience luxury living in our exclusive villa resort nestled in nature&apos;s embrace
+          Trải nghiệm cuộc sống xa hoa tại khu nghỉ dưỡng biệt thự độc quyền của chúng tôi trong vòng tay của thiên nhiên
         </motion.p>
         <motion.div 
           className="space-x-4"
@@ -45,12 +53,14 @@ const Hero = () => {
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.6 }}
         >
-          <button className="border-2 border-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-gray-900 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-white/30 backdrop-blur-sm">
-            Take a Tour
+          <button 
+            onClick={scrollToNextSection}
+            className="border-2 border-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-gray-900 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-white/30 backdrop-blur-sm font-cormorant"
+          >
+            Tham Quan Ngay
           </button>
         </motion.div>
       </div>
-
       {/* Scroll Indicator */}
       <motion.div 
         className="absolute bottom-8 left-1/2 transform -translate-x-1/2"
@@ -63,7 +73,7 @@ const Hero = () => {
           transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
         >
           <svg 
-            className="w-6 h-6 text-white hover:text-gray-300 transition-colors duration-300"
+            className="w-6 h-6 text-amber-700 hover:text-amber-800 transition-colors duration-300"
             fill="none" 
             strokeLinecap="round" 
             strokeLinejoin="round" 

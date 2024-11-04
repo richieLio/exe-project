@@ -7,14 +7,14 @@ const Contact = () => {
     <section className="bg-gradient-to-b from-white to-blue-50 py-20">
       <div className="container mx-auto px-4">
         <h2 className="text-5xl font-bold text-center mb-12 animate-fade-in-down text-blue-900">
-          Contact Us
+          Liên Hệ
           <div className="w-20 h-1 bg-blue-600 mx-auto mt-4 transform transition-all duration-300 hover:w-32"></div>
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="text-center p-8 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
             <FaPhone className="text-4xl text-blue-600 mx-auto mb-4 animate-bounce" />
-            <h3 className="text-xl font-semibold mb-2 text-blue-900">Phone</h3>
+            <h3 className="text-xl font-semibold mb-2 text-blue-900">Điện Thoại</h3>
             <p className="text-blue-800 hover:text-blue-600 transition-colors duration-300">+84 123 456 789</p>
             <p className="text-blue-800 hover:text-blue-600 transition-colors duration-300">+84 987 654 321</p>
           </div>
@@ -28,9 +28,9 @@ const Contact = () => {
 
           <div className="text-center p-8 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
             <FaMapMarkerAlt className="text-4xl text-blue-600 mx-auto mb-4 animate-bounce" />
-            <h3 className="text-xl font-semibold mb-2 text-blue-900">Location</h3>
-            <p className="text-blue-800 hover:text-blue-600 transition-colors duration-300">123 Miha Street</p>
-            <p className="text-blue-800 hover:text-blue-600 transition-colors duration-300">Can Tho, Vietnam</p>
+            <h3 className="text-xl font-semibold mb-2 text-blue-900">Địa Chỉ</h3>
+            <p className="text-blue-800 hover:text-blue-600 transition-colors duration-300">123 Đường Miha</p>
+            <p className="text-blue-800 hover:text-blue-600 transition-colors duration-300">Cần Thơ, Việt Nam</p>
           </div>
         </div>
 

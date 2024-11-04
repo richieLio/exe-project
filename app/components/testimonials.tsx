@@ -5,19 +5,19 @@ const Testimonials = () => {
     {
       name: "Nguyễn Thị Hương",
       role: "Giám đốc Doanh nghiệp",
-      image: "/testimonials/guest1.jpg",
+      image: "/images/avt-nth.jpg",
       quote: "Miha Villa đã vượt xa mọi kỳ vọng của tôi. Tiện nghi sang trọng, dịch vụ chu đáo và tầm nhìn tuyệt đẹp đã tạo nên một kỳ nghỉ khó quên. Một trải nghiệm thực sự 5 sao.",
     },
     {
       name: "Trần Văn Nam",
       role: "Người Yêu Du Lịch",
-      image: "/testimonials/guest2.jpg",
+      image: "/images/avt-tvn.jpg",
       quote: "Sự chú ý đến từng chi tiết tại Miha Villa thật đáng kinh ngạc. Từ thiết kế nội thất sang trọng đến dịch vụ quản gia cá nhân, mọi thứ đều hoàn hảo. Chắc chắn sẽ quay lại.",
     },
     {
       name: "Phạm Thu Hà",
       role: "Đầu Bếp Nổi Tiếng",
-      image: "/testimonials/guest3.jpg",
+      image: "/images/avt-pth.jpg",
       quote: "Là người đánh giá cao ẩm thực tinh tế, trải nghiệm ẩm thực tại Miha Villa thật xuất sắc. Không gian biệt thự riêng tư và kiến trúc tuyệt đẹp tạo nên bầu không khí sang trọng tuyệt đối.",
     }
   ];
@@ -25,7 +25,7 @@ const Testimonials = () => {
     <section className="bg-gradient-to-b from-neutral-50 to-neutral-100 py-32">
       <div className="container mx-auto px-4">
         <h2 className="text-5xl font-serif text-center mb-16 transform hover:scale-105 transition-transform duration-300 text-green-600">
-          Guest Experiences
+          Trải Nghiệm Của Khách Hàng
         </h2>
         <div className="grid md:grid-cols-3 gap-12 relative">
           {testimonials.map((testimonial, index) => (
@@ -50,11 +50,11 @@ const Testimonials = () => {
                 </div>
               </div>
               <blockquote className="text-gray-700 italic text-center relative">
-                <span className="absolute -left-2 -top-2 text-4xl text-primary/20">&quot;</span>
+                <span className="absolute -left-2 -top-2 text-4xl text-primary/20">"</span>
                 <p className="leading-relaxed hover:text-primary transition-colors duration-300">
                   {testimonial.quote}
                 </p>
-                <span className="absolute -right-2 bottom-0 text-4xl text-primary/20">&quot;</span>
+                <span className="absolute -right-2 bottom-0 text-4xl text-primary/20">"</span>
               </blockquote>
             </div>
           ))}

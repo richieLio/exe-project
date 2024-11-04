@@ -8,21 +8,21 @@ const BlogSection = () => {
       id: 1,
       title: 'Trải nghiệm nghỉ dưỡng đẳng cấp tại Miha Villa',
       date: '15 Tháng 12, 2023',
-      image: '/images/blog/luxury-room.jpg',
+      image: '/images/miha-1.jpg',
       excerpt: 'Khám phá không gian sang trọng và dịch vụ đẳng cấp 5 sao tại Miha Villa...'
     },
     {
       id: 2,
       title: 'Ẩm thực tinh tế tại nhà hàng Miha',
       date: '10 Tháng 12, 2023',
-      image: '/images/blog/fine-dining.jpg',
+      image: '/images/miha-2.jpg',
       excerpt: 'Trải nghiệm ẩm thực độc đáo với các món ăn được chế biến bởi đầu bếp 5 sao...'
     },
     {
       id: 3,
       title: 'Top 5 tiện ích spa độc đáo tại Miha Villa',
       date: '5 Tháng 12, 2023',
-      image: '/images/blog/spa.jpg',
+      image: '/images/miha-3.jpg',
       excerpt: 'Thư giãn tuyệt đối với các liệu trình spa cao cấp được thiết kế riêng...'
     }
   ];
